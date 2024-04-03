@@ -22,7 +22,7 @@ Details:
 
 --- make_plot.py: Make the plot shown in Fig1D.
 
-- EffectiveModel.nb: Contains the numerical analysis of the effective model leading to the boundaries shown in Fig3.
+- EffectiveModel.nb: Contains the analysis of the effective model leading to the boundaries shown in Fig3, and Eqs(5), (6), and (7).
 
 ## Contribution guidelines
 - Email: (shiladtb@andrew.cmu.edu)
