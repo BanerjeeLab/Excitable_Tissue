@@ -13,9 +13,16 @@ Vertex model and effective model for an excitable tissue, as detailed in "Excita
 - Numerical analisis is run in Mathematica 12
 
 ## QUICKSTART GUIDE
-- MainFile.py: Contains our codes and relevant information to run the simulation of a 2D ordered tissue subject to mechanical feedback. Simulation results are saved in the directories "length_tension" and "results".
-- snapshots.py: This code generate tissue snapshots using the data from "length_tension" and "results". Snapshots are saved in the directory: "saved_snapshots".
-- EffectiveModel.nb: Contains the numerical analisis of the effective model for an excitable tissue.
+- /Simulations/ directory contains three directories with all the examples needed to re-do all the simulations ran in the study. Specifically, the examples includes the ones shown in Fig1D, Fig4A, Fig5I.
+Details:
+
+--- MainFile.py: Main file to run the simulation. Results are saved in the directories "length_tension" and "results".
+
+--- snapshots.py: This script generate tissue snapshots using the data from "/length_tension/" and "/results/". Snapshots are saved in the directory: "/saved_snapshots/".
+
+--- make_plot.py: Make the plot shown in Fig1D.
+
+- EffectiveModel.nb: Contains the numerical analysis of the effective model leading to the boundaries shown in Fig3.
 
 ## Contribution guidelines
 - Email: (shiladtb@andrew.cmu.edu)
